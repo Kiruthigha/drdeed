@@ -1,0 +1,98 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+// Database Messages
+$lang['m_90001'] = 'Added Successfully';
+$lang['m_90002'] = 'Canceled Successfully.';
+$lang['m_90003'] = 'Saved Successfully.';
+$lang['m_90004'] = 'Updated Successfully.';
+$lang['m_90005'] = 'Changes Saved Successfully.';
+$lang['m_90006'] = 'Confirmed Successfully.';
+$lang['m_90007'] = 'Deleted Successfully.';
+$lang['m_90008'] = 'Database Error. Please Contact System Admin.';
+$lang['m_90009'] = 'Email Id Already Exists.';
+$lang['m_90010'] = 'Email Sent Successfully.';
+$lang['m_90011'] = 'Message Could Not Be Sent.'; 
+$lang['m_90012'] = 'Mobile Number Already Exists.';
+$lang['m_90013'] = 'Mobile# Not Correct.';
+$lang['m_90014'] = 'New Registration Failed. Sorry For Inconvenience. Try Again Later.';
+$lang['m_90015'] = 'No Data Found.';
+$lang['m_90016'] = 'Password Reset Failed.  Enter Correct Values In All Fields.';
+$lang['m_90017'] = 'Please Change Your Default Password.';
+$lang['m_90018'] = 'Your Password Has Expired. Please Change Your Password.';
+$lang['m_90019'] = 'No Documents or Files Available In This Folder.';
+$lang['m_90020'] = 'File Not Found. Please Contact System Administrator.';
+$lang['m_90021'] = 'Document Deleted Successfully';
+$lang['m_90022'] = 'Document Uploaded Successfully.'; 
+
+// Validation Messages
+$lang['m_90501'] = 'Email Id Entered Not Matching. Please Retry.';
+$lang['m_90502'] = 'All Fields Required.';
+$lang['m_90503'] = 'Birth Month Date Not Correct.';
+$lang['m_90504'] = 'Captcha Code Required.';
+$lang['m_90505'] = 'Enter Valid Mobile#.';
+$lang['m_90506'] = 'Enter A Valid Pincode.';
+$lang['m_90507'] = 'Enter Valid Email Id.';
+$lang['m_90508'] = 'Enter Valid URL.';
+$lang['m_90509'] = 'Mandatory Field - Please Enter Value.';
+$lang['m_90510'] = 'Mobile Number Not Matching. Please Retry.';
+$lang['m_90511'] = 'Not a secure Password - Your password should be minimum 6 characters and must contain a lower case letter, upper case letter, a digit and a special character.';
+$lang['m_90512'] = 'Password Entered Not Matching. Please Retry.';
+$lang['m_90513'] = 'Password Has To Contain Atleast 1 Lowercase.';
+$lang['m_90514'] = 'Password Has To Contain Atleast 1 Number.';
+$lang['m_90515'] = 'Password Has To Contain Atleast 1 Special Character.';
+$lang['m_90516'] = 'Password Has To Contain Atleast 1 Uppercase.';
+$lang['m_90517'] = 'Password Has To Contain Minimum 6 Characters Long.';
+$lang['m_90518'] = 'Please Change The Default Password.';
+$lang['m_90519'] = 'Unable To Process Your Request Now. Please Try Again After Sometime.';
+$lang['m_90520'] = 'Saved Successfully. Email not sent due to system issue. Please resend email after sometime.';
+$lang['m_90521'] = 'Unable To Download Document. Please Contact System Administrator.';
+$lang['m_90522'] = 'Document Type Is Not Valid. Select A Valid Document Type.';
+$lang['m_90523'] = 'Document Size Exceeds Upload Limit. Please Retry.';
+$lang['m_90524'] = 'System Error. Please Try After Some Time.';
+$lang['m_90525'] = 'Go To Dashboard.';
+$lang['m_90526'] = 'Enter A Valid Math Captcha Response.';
+$lang['m_90527'] = 'Your Account Closed successfully.';
+$lang['m_90528'] = 'Enter Mobile# Required.';
+$lang['m_90529'] = 'Confirm Email Id Not Match.';
+$lang['m_90530'] = 'File Name Already Exists.';
+$lang['m_90531'] = 'Folder Not Found.   Please upload in a valid folder or contact System Administrator.';
+$lang['m_90532'] = 'Incorrect Answer. Please Enter Correct Answer.';
+
+// Customer Suggested Error Codes
+$lang['m_90801'] = 'You Are Already Signed Up. If You Forgot Your Password, Please Retrieve Your Passwords Using The ‘I Forgot My Password’ Link.';
+$lang['m_90802'] = 'Please Activate Your Account By First Clicking On The Link That Was Sent To Your Email Address.';
+$lang['m_90803'] = 'Sorry. You Are Not Authorized To Log In. Please Try Again Or Contact Support By Emailing Support@cbpce.org.';
+$lang['m_90804'] = 'Forgot Your Password? Please Retrieve Or Reset Your Password Using The ‘I Forgot My Password’ Link.';
+$lang['m_90805'] = 'Invalid Username And/or Password. Please Try Again.';
+$lang['m_90807'] = 'Sorry. Unable To Find Your Username In The System. Please Try Again Or Contact Support By Emailing Support@cbpce.org.';
+$lang['m_90808'] = 'Sorry. The Answers You Entered Are Incorrect.Please Try Again.';
+$lang['m_90809'] = 'You Have Exceeded The Allowed Number Of Attempts. Please Contact Support By Emailing Support@cbpce.org.';
+$lang['m_90810'] = 'Please Check Your Email As An Updated Password Has Been Sent To The Email Address On File.';
+$lang['m_90811'] = 'Invalid Password. Please Enter The Correct Password For This Account.';
+$lang['m_90812'] = 'Password Changed Successfully. Please Login With New Password.';
+$lang['m_90813'] = 'New Passwords Do Not Match. Please Retry.';
+$lang['m_90814'] = 'User Profile Updated Successfully.';
+$lang['m_90815'] = 'Please Validate Your Email By Clicking On The Link In The Welcome Email Sent To Your Registered Email Id.';
+
+$lang['m_90816'] = 'Invalid User Information .Please Contact System admin';
+$lang['m_90817'] = 'Please Validate Your Email By Clicking On The Link To Reset Your Password.';
+$lang['m_90818'] = 'Email Id send your mobile  number please login after some time';
+$lang['m_90819'] = 'Password Has To Contain Minimum 6 Characters Long.';
+$lang['m_90820'] = 'Reset Password Link Send Your Email Id.';
+$lang['m_90821'] = 'Your Quiz Status Fail.Please Retest Your quiz.';
+$lang['m_90822'] = 'Your Test Is Complete.  Please Wait For The Results.';
+$lang['m_90823'] = 'Your Course Is Complete.  Please Print Your Certificate.';
+$lang['m_90824'] = 'Old Password Is Same. Please Change The password.';
+$lang['m_90825'] = 'Enter Valid SMS Code';
+$lang['m_90826'] = 'File Name Already Exists.';
+$lang['m_90827'] = 'Document Type/Size Is Not Valid. Select A Valid Document Type/Size.';
+$lang['m_90828'] = 'Folder Not Found.   Please upload in a valid folder or contact System Administrator.';
+$lang['m_90829'] = 'Grade Must be Less Than Or Equal To 100.';
+$lang['m_90830'] = 'Dismissed';
+$lang['m_90831'] = 'Saved Successfully. Email not sent due to system issue.';
+$lang['m_90832'] = 'File too large. File must be less than 3 megabytes.';
+$lang['m_90833'] = 'Current course number is already in use';
+$lang['m_90834'] = 'This Promo Code is No Longer Active.';
+$lang['m_90835'] = 'Promocode name is already in use';
+$lang['m_90836'] = 'Promocode is already in use';
+
+?>

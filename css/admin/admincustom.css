@@ -1,0 +1,91 @@
+.labeltext {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 5em;
+  font-variant: normal;
+  color:#000;
+}
+label{
+	padding-top:5px;
+	font-family: Arial;
+	font-weight: 300;
+}
+.btn{
+	margin-right:10px;
+}
+.form-control{
+	border: 1px solid #9e9b9b;
+}
+.spanlabel {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 2rem;
+  font-variant: normal;
+   color:#000;
+}
+
+.btncommon{
+	width: 250px;
+	padding:15px;
+	font-weight: 700;
+  border:1px solid #676a6c;
+}
+
+.btncommon:hover{
+	background-color:#fff !important;
+	border-color:#000 !important;
+}
+
+div .dataTables_paginate {
+  float: right !important;
+}
+th{
+	font-size:16px;
+}
+.table-bordered > thead > tr > th{
+	background-color:#ffffff !important;
+}
+.table{
+	overflow:hidden !important;  
+	word-wrap:normal | break-word !important;
+	}
+
+.btncard {
+  height: 55px;
+  margin-bottom: 50px;
+  width: 250px;
+  position: relative;
+  background-color: white;
+  border-radius: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top:30px;
+  padding:15px;
+  border:1px solid #676a6c;
+  vertical-align: text-middle !important;
+ 
+}
+.btncard:hover {
+  background-color: #fff;
+  border-color:#000 !important;
+ /*  color:#fff;  */
+}
+
+td a {
+	text-decoration: underline;
+}
+
+p a {
+	text-decoration: underline;
+}
+.badge {
+	background-color:#700745;
+	color:#fff;
+}
+td .badge{
+	font-size:8px;
+}
+.table
+{
+overflow-x:hidden !important;
+}

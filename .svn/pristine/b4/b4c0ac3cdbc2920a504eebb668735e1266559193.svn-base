@@ -1,0 +1,119 @@
+/* Slider */
+.slick1-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick1-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick1-list:focus
+{
+    outline: none;
+}
+.slick1-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick1-slider .slick1-track,
+.slick1-slider .slick1-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick1-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick1-track:before,
+.slick1-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick1-track:after
+{
+    clear: both;
+}
+.slick1-loading .slick1-track
+{
+    visibility: hidden;
+}
+
+.slick1-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick1-slide
+{
+    float: right;
+}
+.slick1-slide img
+{
+    display: block;
+}
+.slick1-slide.slick1-loading img
+{
+    display: none;
+}
+.slick1-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick1-initialized .slick1-slide
+{
+    display: block;
+}
+.slick1-loading .slick1-slide
+{
+    visibility: hidden;
+}
+.slick1-vertical .slick1-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick1-arrow.slick1-hidden {
+    display: none;
+}
